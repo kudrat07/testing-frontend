@@ -76,7 +76,7 @@ const Home = () => {
           <p className="profile-text">Login/Signup</p>
         </div>
       </nav>
-      {/* <section className="home-section--container">
+      <section className="home-section--container">
           <div className="section-text--wrapper">
             <p className="section-text">
               Order Restaurant food, takeaway and groceries.
@@ -107,7 +107,7 @@ const Home = () => {
                 />
               </figure>
             </div>
-      </section> */}
+      </section>
     </div>
   );
 };
