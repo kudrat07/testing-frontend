@@ -77,36 +77,77 @@ const Home = () => {
         </div>
       </nav>
       <section className="home-section--container">
-          <div className="section-text--wrapper">
-            <p className="section-text">
-              Order Restaurant food, takeaway and groceries.
-            </p>
-            <h1 className="section-title">
-              Feast Your Senses,{" "}
-              <span className="section-title--colored">Fast and Fresh</span>
-            </h1>
-            <p>Enter a postal code to see what we deliver</p>
-            <div className="section-input--wrapper">
-              <input type="text" placeholder="e.g. EC4R 3TE" />
-              <input type="submit" />
-            </div>
-          </div>
-          <figure className="section-img--wrapper">
-            <img
-              className="section-first--img"
-              src={girlEatingPizzaImg}
-              alt="girl eating pizza"
+        <div className="section-text--wrapper">
+          <p className="section-text">
+            Order Restaurant food, takeaway and groceries.
+          </p>
+          <h1 className="section-title">
+            Feast Your Senses,
+          </h1>
+          <h1 className="section-title section-title--colored">Fast and Fresh</h1>
+          <p className="input-label--text">
+            Enter a postal code to see what we deliver
+          </p>
+          <div className="section-input--wrapper">
+            <input
+              className="section-input"
+              type="text"
+              placeholder="e.g. EC4R 3TE"
             />
-          </figure>
-            <div className="corner-border">
-              <figure>
-                <img
-                  className="section-second--img"
-                  src={girlEatingChowmingImg}
-                  alt="girl eating chowmin"
-                />
-              </figure>
+            <input className="submit-btn" type="submit" value="Search" />
+          </div>
+        </div>
+        <img
+          className="section-first--img"
+          src={girlEatingPizzaImg}
+          alt="girl eating pizza"
+        />
+        <div className="corner-border">
+        <div className="section-order--container">
+          <div className="order-wrapper first-order">
+          <p className="number-text">1</p>
+          <div className="content-wrapper">
+            <div className="order-content-wrapper">
+              <img className="section-corner--appLogo" src={appLogo} alt="app logo" />
+              <p className="corner-text text-bold">We’ve Received your order!</p>
+              <p className="corner-text">Awaiting Restaurant acceptance </p>
             </div>
+            <p className="now-text">now</p>
+          </div>
+          </div>
+        </div>
+        <div className="section-order--container">
+          <div className="order-wrapper second-order">
+          <p className="number-text">2</p>
+          <div className="content-wrapper">
+            <div className="order-content-wrapper">
+              <img className="section-corner--appLogo" src={appLogo} alt="app logo" />
+              <p className="corner-text text-bold">Order Accepted! <span className="tick-emoji">✅</span></p>
+              <p className="corner-text">Your order will be delivered shortly</p>
+            </div>
+            <p className="now-text">now</p>
+          </div>
+          </div>
+        </div>
+        <div className="section-order--container">
+          <div className="order-wrapper third-order">
+          <p className="number-text">3</p>
+          <div className="content-wrapper">
+            <div className="order-content-wrapper">
+              <img className="section-corner--appLogo" src={appLogo} alt="app logo" />
+              <p className="corner-text text-bold">Your rider's nearby</p>
+              <p className="corner-text">They're almost there - get ready🎉</p>
+            </div>
+            <p className="now-text">now</p>
+          </div>
+          </div>
+        </div>
+          <img
+            className="section-second--img"
+            src={girlEatingChowmingImg}
+            alt="girl eating chowmin"
+          />
+        </div>
       </section>
     </div>
   );
