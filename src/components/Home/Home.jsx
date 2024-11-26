@@ -57,6 +57,8 @@ const shaurmaLogo =
 const laughingImg =
   "https://res.cloudinary.com/duicg4gyd/image/upload/v1732466161/friends-laughing-using-mobiles_2_h24hmq.png";
 
+  const shadowImg="https://res.cloudinary.com/duicg4gyd/image/upload/v1732554558/friends-laughing-using-mobiles_1_izansr.png"
+
 const firstChefImg =
   "https://res.cloudinary.com/duicg4gyd/image/upload/v1732471840/Baawarchi-1_zsc6gt.png";
 
@@ -269,7 +271,7 @@ const Home = () => {
               <p className="food-name--text">Grand Ai Cafe London</p>
             </div>
             <img
-              className="discount-food--img"
+              className="discount-food--img food-img--center"
               src={foodItem2}
               alt="food image"
             />
@@ -298,7 +300,7 @@ const Home = () => {
               <img className="category-img" src={burgerImg} alt="burger" />
               <div className="category-item--wrapper">
                 <div className="category-text--wrapper">
-                  <p className="category-item">Burgers & Fast food</p>
+                  <p className="category-item">Burgers &  food</p>
                   <p className="colored-item">21 Restaurants</p>
                 </div>
               </div>
@@ -402,6 +404,7 @@ const Home = () => {
           alt="boy and girl laughing"
           className="section-five--img"
         />
+        <img src={shadowImg} className="section-five--shadowImg"/>
         <div className="section-five--wrapper">
           <div className="imgText-wrapper">
             <img
