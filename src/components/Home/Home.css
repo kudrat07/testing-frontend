@@ -306,19 +306,14 @@
 }
 
 .discount-image--container {
-  overflow: hidden;
   width: 100%;
-  justify-content: space-between;
   gap: 16px;
 }
 .discount-image--wrapper {
   position: relative;
-  width: 100%;
-  overflow: hidden;
   display: flex;
 }
 .discount-food--img {
-  border: 1px;
   max-width: 100%;
 }
 
@@ -329,7 +324,7 @@
   height: 56px;
   background-color: #03081f;
   position: absolute;
-  right: 50px;
+  right: 16px;
   border-radius: 0 0 12px 12px;
 }
 .home-discount--number {

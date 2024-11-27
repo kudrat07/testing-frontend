@@ -74,6 +74,8 @@ const iconSecond =
 const iconThird =
   "https://res.cloudinary.com/duicg4gyd/image/upload/v1732520770/order_1_iz2ve2.png";
 
+  import Navbar from "../Navbar/Navbar";
+
 const Home = () => {
   return (
     <div className="home-container">
